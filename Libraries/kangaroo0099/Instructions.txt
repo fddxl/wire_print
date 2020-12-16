@@ -1,0 +1,20 @@
+Place all the .dll and .gha files in your Grasshopper libraries folder.
+
+The location of this folder can be found from Grasshopper by clicking File>Special Folders>Components Folder
+
+(it will typically be somewhere like C:\Users\YourName\AppData\Roaming\Grasshopper\Libraries)
+
+Make sure that all the dll and gha files are "unblocked" (In Windows explorer right-click the files and choose properties. If it is blocked this will appear under the "General" tab.
+
+Remove all previous versions of the Kangaroo dll and gha files (even files in your downloads folder can cause conflicts)
+
+Copy all the files from the UserObjects folder to your Grasshopper UserObjects folder (File>Special Folders>User Object Folder)
+
+Restart Rhino
+
+For further information and example files, please visit the Kangaroo group on the Grasshopper website: http://www.grasshopper3d.com/group/kangaroo
+
+Enjoy!
+
+Daniel Piker
+11 December 2013
